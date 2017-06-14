@@ -23,7 +23,18 @@ $ bash Anaconda3-4.4.0-MacOSX-x86_64.sh
 Let's Anaconda install itself in the default folder... (the goal is to do machine learning not managing Python environment)
 
 ```sh
-$ /Users/gsempe/anaconda3
+$ bash Anaconda3-4.4.0-MacOSX-x86_64.sh
+
+...
+
+Anaconda3 will now be installed into this location:
+/Users/gsempe/anaconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/Users/gsempe/anaconda3] >>>
 ```
 ...and let it add itself to the PATH
 
@@ -43,3 +54,17 @@ Thank you for installing Anaconda3!
 Share your notebooks and packages on Anaconda Cloud!
 Sign up for free: https://anaconda.org
 ```
+
+#### To update (when needed)
+
+cf. https://conda.io/docs/install/full.html#os-x-anaconda-install
+
+```sh
+$ conda update conda
+```
+
+#### To uninstall (it's good to be prepared)
+
+cf. https://conda.io/docs/install/full.html#os-x-anaconda-install
+
+> To uninstall Anaconda open a terminal window and remove the entire anaconda install directory: `rm -rf ~/anaconda`. You may also edit `~/.bash_profile` and remove the anaconda directory from your `PATH` environment variable, and remove the hidden .condarc file and .conda and .continuum directories which may have been created in the home directory with `rm -rf ~/.condarc ~/.conda ~/.continuum`
