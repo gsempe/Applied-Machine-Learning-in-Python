@@ -68,3 +68,10 @@ $ conda update conda
 cf. https://conda.io/docs/install/full.html#os-x-anaconda-install
 
 > To uninstall Anaconda open a terminal window and remove the entire anaconda install directory: `rm -rf ~/anaconda`. You may also edit `~/.bash_profile` and remove the anaconda directory from your `PATH` environment variable, and remove the hidden .condarc file and .conda and .continuum directories which may have been created in the home directory with `rm -rf ~/.condarc ~/.conda ~/.continuum`
+
+
+### Launch offline Jupyter notebooks
+
+```sh
+$ anaconda-navigator
+```
